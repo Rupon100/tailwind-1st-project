@@ -2,7 +2,11 @@
 module.exports = {
   content: ["*"],
   theme: {
-    extend: {},
+    extend: {
+      backgroundImage: {
+        'home-backgound': "url(/tailwind-1st-project/home-bg.jpg)"
+      }
+    },
   },
   plugins: [],
 }
